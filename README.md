@@ -9,7 +9,7 @@ This tutorial guides you through training a model to predict the increase in sal
 
 **1. IBM Cloud Account:** Visit https://ibm.biz/autoailab and fill in your details to create an account or click Log in if you already have an account
 
-![1](screenshots/1.PNG)
+![](screenshots/1.png)
 
 **2. Create instances of the following:** Click on 'Catalog', look for ['Object Storage'](https://cloud.ibm.com/catalog/services/cloud-object-storage), give it a name (or leave the default) and click 'Create'. Do the same to create instances for ['Watson Machine Learning'](https://cloud.ibm.com/catalog/services/machine-learning) and ['Watson Studio'](https://cloud.ibm.com/catalog/services/watson-studio)
 
