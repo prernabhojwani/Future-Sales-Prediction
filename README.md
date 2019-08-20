@@ -22,9 +22,9 @@ In your Watson Studio instance, click Get Started > Create a project > Create an
 
 ![](screenshots/2.png)
 
-![](screenshots/3.PNG)
-
 Give your project a Name and optional Description, connect the Object Storage instance created earlier and click 'Create'.
+
+![](screenshots/3.PNG)
 
 Once created, click on Add to project > AutoAI Experiment
 
@@ -34,11 +34,13 @@ Give your AutoAI experiment a Name and optional Description, connect the Watson 
 
 ![](screenshots/5.PNG)
 
-In the Add Training data section, drag and drop or browse for the Sales.csv file downloaded earlier to upload. 
+In the 'Add training data' section, drag and drop or browse for the Sales.csv file downloaded earlier to upload. 
 
 ![](screenshots/6.png)
 
-Next we're going to train the model. Select 'Increase' as the column to predict. The prediction type recommended by AutoAI is Regression and the opetimized metric is RMSE. These can be changed by clicking on 'Configure prediction' but we're going to go with the recommended ones and click 'Run Experiment'.
+Next we're going to train the model. 
+
+Select 'Increase' as the column to predict. The prediction type recommended by AutoAI is Regression and the opetimized metric is RMSE. These can be changed by clicking on 'Configure prediction' but we're going to go with the recommended ones and click 'Run Experiment'.
 
 ![](screenshots/7.PNG)
 
