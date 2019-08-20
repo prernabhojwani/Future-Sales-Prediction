@@ -36,23 +36,34 @@ Choose 'Save as model' and then click 'Save' for thr pipeline ranked 1st. This s
 
 Before you can use your trained model to make predictions on new data, you must deploy the model.
 
-You can deploy the model from the model details page. You can access the model details page in one of these ways:
+The model can be deployed from the model details page. You can access the model details page in one of these ways:
 
-Clicking on the model name in the notification displayed when you save the model.
+Clicking on the model name in the notification displayed when you save the model...or,
+
 Open the Assets page for the project containing the model and click the model name in the Machine Learning Model section.
 
 From the model details page:
 
-    Click the Deployments tab.
-    Click Add Deployment.
-    In the page that opens, fill in the fields:
-        Specify a name for the deployment.
-        Select “Web service” as the Deployment type.
-        Click Save.
+Go to the 'Deployments' tab, click 'Add Deployment'. Give your deployment a name, an optional description, select “Web service” as the Deployment type and click 'Save'.
 
-After you save the deployment, click on the deployment name to view the deployment details page.
+Once saved, click on the deployment name to view the deployment details page.
 
+### Step 3: Test the deployed model
 
+The deployed model can be tested from the deployment details page. On the 'Test' tab of the deployment details page, test data can be entered int the fields provided or in JSON format. 
+
+Note that the test data replicates the data fields for the model with the exception of the prediction field.
+
+Enter the following test data in the JSON editor (or alternatively enter the values into the fields):
+
+```
+{"input_data":[{
+        "fields": ["Class","Cost","Promotion","Before","After"],
+        "values": [["Luxury",13.357,1920, 117440,125073]]
+}]}
+```
+
+Click 'Predict' to predict the increase in sales for that item after the promotion.
 
 
 
