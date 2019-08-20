@@ -11,7 +11,7 @@ This tutorial guides you through training a model to predict the increase in sal
 
 ![](screenshots/1.png)
 
-**2. Create instances of the following:** Click on 'Catalog', look for ['Object Storage'](https://cloud.ibm.com/catalog/services/cloud-object-storage), give it a name (or leave the default) and click 'Create'. Do the same to create instances for ['Watson Machine Learning'](https://cloud.ibm.com/catalog/services/machine-learning) and ['Watson Studio'](https://cloud.ibm.com/catalog/services/watson-studio)
+**2. Create instances of the following:** Click on 'Catalog', look for [Object Storage](https://cloud.ibm.com/catalog/services/cloud-object-storage), give it a name (or leave the default) and click 'Create'. Do the same to create instances for [Watson Machine Learning](https://cloud.ibm.com/catalog/services/machine-learning) and [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
 
 **3. Dataset:** Download the [Sales.csv](https://github.com/prernabhojwani/Future-Sales-Prediction/blob/master/Sales.csv) dataset
 
