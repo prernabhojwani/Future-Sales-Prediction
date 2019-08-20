@@ -2,6 +2,8 @@
 
 ## Predict the effect of future sales promotion using AutoAI capabilities within IBM Watson Studio
 
+This tutorial guides you through training a model to predict the increase in sales of an item after promotion. In this tutorial, you will create an AutoAI experiment in IBM Watson Studio to build a model that analyzes your data and selects the best model type and estimators to produce, train, and optimize pipelines, which are model candidates. After reviewing the pipelines, you will save one as a model, deploy it, then test it to get a prediction.
+
 
 ### Pre-requisites
 
@@ -9,7 +11,7 @@
 
 **2. Create instances of the following:** Click on 'Catalog', look for ['Object Storage'](https://cloud.ibm.com/catalog/services/cloud-object-storage), give it a name (or leave the default) and click 'Create'. Do the same to create instances for ['Watson Machine Learning'](https://cloud.ibm.com/catalog/services/machine-learning) and ['Watson Studio'](https://cloud.ibm.com/catalog/services/watson-studio)
 
-**3. Dataset:** Download the Sales.csv dataset
+**3. Dataset:** Download the [Sales.csv](https://github.com/prernabhojwani/Future-Sales-Prediction/blob/master/Sales.csv) dataset
 
 
 ### Step 1: Build and train the model
@@ -26,7 +28,9 @@ In the Add Training data section, drag and drop or browse for the Sales.csv file
 
 Next we're going to train the model. Select 'Increase' as the column to predict. The prediction type recommended by AutoAI is Regression and the opetimized metric is RMSE. These can be changed by clicking on 'Configure prediction' but we're going to go with the recommended ones and click 'Run Experiment'.
 
-As the model trains, you will see an infographic that shows the process of building the pipelines. For a list of estimators available with each machine learning technique in AutoAI, you can check out: [AutoAI implementation detail](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-details.html)
+As the model trains, you will see an infographic that shows the process of building the pipelines. 
+
+For a list of estimators available with each machine learning technique in AutoAI, you can check out: [AutoAI implementation detail](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-details.html)
 
 Once the pipeline creation is complete, you can see all the ranked pipelines in a leaderboard. You can view details of each pipeline by clicking on the '>' and compare the pipelines by clicking on 'Compare pipelines'.
 
@@ -38,9 +42,8 @@ Before you can use your trained model to make predictions on new data, you must 
 
 The model can be deployed from the model details page. You can access the model details page in one of these ways:
 
-Clicking on the model name in the notification displayed when you save the model...or,
-
-Open the Assets page for the project containing the model and click the model name in the Machine Learning Model section.
+- Clicking on the model name in the notification displayed when you save the model...or,
+- Open the Assets page for the project containing the model and click the model name in the Machine Learning Model section.
 
 From the model details page:
 
