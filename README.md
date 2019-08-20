@@ -53,7 +53,7 @@ Once saved, click on the deployment name to view the deployment details page.
 
 ### Step 3: Test the deployed model
 
-The deployed model can be tested from the deployment details page. On the 'Test' tab of the deployment details page, test data can be entered int the fields provided or in JSON format. 
+The deployed model can be tested from the deployment details page. On the 'Test' tab of the deployment details page, test data can be entered in the fields provided or in JSON format. 
 
 Note that the test data replicates the data fields for the model with the exception of the prediction field.
 
