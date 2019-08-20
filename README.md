@@ -22,7 +22,7 @@ In your Watson Studio instance, click Get Started > Create a project > Create an
 
 ![](screenshots/2.png)
 
-Give your project a Name and optional Description, connect the Object Storage instance created earlier and click 'Create'.
+Give your project a name and an optional description, connect the Object Storage instance created earlier and click 'Create'.
 
 ![](screenshots/3.PNG)
 
@@ -30,7 +30,7 @@ Once created, click on Add to project > AutoAI Experiment
 
 ![](screenshots/4.PNG)
 
-Give your AutoAI experiment a Name and optional Description, connect the Watson Machine Learning Service instance created earlier, leave the Compute Configuration as default and click 'Create'.
+Give your AutoAI experiment a name and an optional description, connect the Watson Machine Learning Service instance created earlier, leave the Compute Configuration as default and click 'Create'.
 
 ![](screenshots/5.PNG)
 
@@ -79,13 +79,13 @@ Give your deployment a name, an optional description, select “Web service” a
 
 Once saved, click on the deployment name to view the deployment details page.
 
+![](screenshots/14.PNG)
+
 ### Step 3: Test the deployed model
 
 The deployed model can be tested from the deployment details page. On the 'Test' tab of the deployment details page, test data can be entered in the fields provided or in JSON format. 
 
 Note that the test data replicates the data fields for the model with the exception of the prediction field.
-
-![](screenshots/14.PNG)
 
 ![](screenshots/15.PNG)
 
