@@ -7,13 +7,25 @@ This tutorial guides you through training a model to predict the increase in sal
 
 ### Pre-requisites
 
-**1. IBM Cloud Account:** Visit https://ibm.biz/autoailab and fill in your details to create an account or click Log in if you already have an account
+**1. IBM Cloud Account:** Visit https://ibm.biz/autoailab and fill in your details to create an account or click 'Log in' if you already have an account.
 
 ![](screenshots/1.png)
 
-**2. Create instances of the following:** Click on 'Catalog', look for [Object Storage](https://cloud.ibm.com/catalog/services/cloud-object-storage), give it a name (or leave the default) and click 'Create'. Do the same to create instances for [Watson Machine Learning](https://cloud.ibm.com/catalog/services/machine-learning) and [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio)
+**2. Create instances of the following:** Click on 'Catalog', look for [Object Storage](https://cloud.ibm.com/catalog/services/cloud-object-storage), give it a name (or leave the default) and click 'Create'. Do the same to create instances for [Watson Machine Learning](https://cloud.ibm.com/catalog/services/machine-learning) and [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio).
 
-**3. Dataset:** Download the [Sales.csv](https://github.com/prernabhojwani/Future-Sales-Prediction/blob/master/Sales.csv) dataset
+**3. Dataset:** Download the [Sales.csv](https://github.com/prernabhojwani/Future-Sales-Prediction/blob/master/Sales.csv) dataset.
+
+The dataset contains the follwing columns:
+
+- Class: Product type
+
+- Cost: Unit price
+
+- Promotion: Index of amount spent on a particular promotion
+
+- Before: Revenue before promotion
+
+- After: Revenue after promotion
 
 
 ### Step 1: Build and train the model
