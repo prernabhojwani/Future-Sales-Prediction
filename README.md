@@ -16,11 +16,11 @@ This tutorial guides you through training a model to predict the increase in sal
 **3. Dataset:** Download the [Sales.csv](https://github.com/prernabhojwani/Future-Sales-Prediction/blob/master/Sales.csv) dataset.
 
 The dataset contains the follwing columns:
-- **Class**: Product type
-- Cost: Unit price
-- Promotion: Index of amount spent on a particular promotion
-- Before: Revenue before promotion
-- After: Revenue after promotion
+- **Class** which describes the Product type
+- **Cost** is the Unit price
+- **Promotion** is the Index of amount spent on a particular promotion
+- **Before** describes the Revenue before promotion
+- **After** describes the Revenue after promotion
 
 
 ### Step 1: Build and train the model
